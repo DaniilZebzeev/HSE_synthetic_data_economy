@@ -1,5 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/github/DaniilZebzeev/HSE_synthetic_data_economy/blob/main/synthetic-data-economy.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DaniilZebzeev/HSE_synthetic_data_economy/blob/main/synthetic_data_economy.ipynb)
 
 # 📊 Synthetic Data Economy — Python Simulation
 
