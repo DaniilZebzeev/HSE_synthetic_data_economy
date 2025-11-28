@@ -1,40 +1,114 @@
-Synthetic Data Economy — Python Simulation
+# 📊 Synthetic Data Economy — Python Simulation
 
-This repository contains a Python-based simulation of a synthetic economic dataset used in the presentation:
+This repository contains a fully reproducible Python-based simulation of a **synthetic economic dataset**.  
+The project is part of the presentation:
 
-“Synthetic Data Economies:
-Data Without Humans — The Rise of Synthetic Economic Datasets for Policy and Business Strategy.”
+**“Synthetic Data Economies:  
+Data Without Humans — The Rise of Synthetic Economic Datasets for Policy and Business Strategy.”**
 
-Contents
+The goal is to demonstrate how artificially generated datasets can replicate realistic macroeconomic and consumer-level patterns for both **policy modeling** and **business strategy**.
 
-Generation of macroeconomic indicators
+---
 
-Synthetic consumer-level variables
+## 🚀 Project Overview
 
-Correlation heatmap
+Synthetic data allow analysts, economists, and researchers to:
 
-Scatter plot (GDP vs Consumer Spending)
+- model GDP shocks and inflation responses  
+- simulate consumer behavior  
+- run risk-free economic experiments  
+- generate unlimited non-sensitive datasets for AI/ML  
+- build reproducible economic models without confidential data  
 
-Linear regression validation (R² score)
+This project shows how to generate such a dataset using **NumPy**, **Pandas**, **Matplotlib**, and **Scikit-learn**.
 
-Full reproducible notebook
+---
 
-Technologies
+## 🧠 Key Features
 
-Python
+### ✔ Synthetic Macroeconomic Indicators  
+- GDP  
+- Inflation  
+- AI Investments  
 
-NumPy
+### ✔ Consumer-Level Variables  
+- Consumer Spending  
+- Generated through linear + stochastic relationships  
 
-Pandas
+### ✔ Visualizations  
+- **Scatter Plot:** GDP vs Consumer Spending  
+- **Correlation Heatmap:** structure of the synthetic dataset  
 
-Matplotlib
+### ✔ Validation  
+A linear regression model (R² score) validates that synthetic relationships behave similarly to real-world economic patterns.
 
-Scikit-learn
+---
 
-Notebook
+## 🧩 Example Code Snippet
 
-synthetic_economy.ipynb — complete runnable code.
+```python
+np.random.seed(42)
+gdp = np.random.normal(50000, 10000, 500)
+inflation = np.random.normal(6, 1.5, 500)
+consumer_spending = 0.25*gdp + np.random.normal(0, 4000, 500)
+````
 
-Author
+This 5-line generator produces a realistic synthetic mini-economy.
 
-Zebzeev Daniil — HSE 2025
+---
+
+## 📈 Visual Examples
+
+### **Correlation Heatmap**
+
+Shows relationships between GDP, inflation, investments, and spending.
+
+### **GDP vs Consumer Spending**
+
+A classic macroeconomic relationship reproduced synthetically.
+
+Plots are stored in the `/plots` directory.
+
+---
+
+## 🛠 Technologies Used
+
+* Python 3
+* NumPy
+* Pandas
+* Matplotlib
+* Scikit-learn
+* Google Colab / Jupyter Notebook
+
+---
+
+## 📘 How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/DaniilZebzeev/HSE_synthetic_data_economy.git
+```
+
+2. Open the notebook:
+
+```
+synthetic_economy.ipynb
+```
+
+3. Run all cells — the notebook is fully reproducible.
+
+---
+
+## 🎓 Author
+
+**Daniil Zebzeev**
+HSE University — Digital Economist: Mastering Python for Intelligent Analysis (2025)
+
+---
+
+## ⭐ Citation
+
+```
+Zebzeev, D. (2025). Synthetic Data Economy — Python Simulation. GitHub Repository.
+
